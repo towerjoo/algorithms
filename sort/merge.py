@@ -1,3 +1,10 @@
+"""
+this can be a recursive process, i.e
+
+1. split an array into two arrays
+2. go to 1, until the split array has only 1 element and return that single element array
+3. merge the two ordered arrays into one array by comparing
+"""
 def merge(a, b):
     out = []
     i = j = 0
